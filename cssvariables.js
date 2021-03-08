@@ -1,5 +1,5 @@
 
-
+window.onload=function(){
         const inputs= document.querySelectorAll('.controls input');
            // console.log("hello")
         function handleUpdate()
@@ -10,6 +10,5 @@
 
         inputs.forEach(input => input.addEventListener('change' , handleUpdate));
         inputs.forEach(input => input.addEventListener('mousemove' , handleUpdate));
-
-    
+}
            
